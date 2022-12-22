@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/garden2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  cursor: url(../images/snipercursor.png), auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#topbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#welcomediv,
+#scorediv,
+#timelimitdiv,
+#birdskilleddiv {
+  padding: 15px;
+  margin-top: 10px;
+
+  width: 20%;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(163, 252, 222, 0.5);
+}
+
+.welcome,
+.win,
+.lose {
+  width: 50%;
+  height: 400px;
+  background-color: antiquewhite;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+.win,
+.lose {
+  display: none;
+}
+
+.win {
+  background-color: rgb(189, 255, 189);
+}
+
+.lose {
+  background-color: rgb(253, 193, 193);
+}
+
+.duckhunter,
+.winner,
+.loser {
+  margin: 50px;
+}
+.winner {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 5px;
+}
+.loser {
+  margin-bottom: 5px;
+}
+
+.intro,
+.congrats,
+.sad {
+  font-weight: bold;
+  font-size: 20px;
+}
+.start,
+.playAgain,
+.tryAgain {
+  width: 250px;
+  height: 50px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}

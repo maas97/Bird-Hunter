@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/garden.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.username,
+.instructions {
+  margin: 25px auto;
+  padding: 55px;
+  text-align: center;
+  width: 40%;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: rgb(190, 189, 189, 0.5);
+}
+
+label {
+  font-size: 25px;
+}
+
+#user {
+  height: 30px;
+  width: 90%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.submit {
+  width: 60%;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.instructions {
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+img {
+  width: 45px;
+  height: 45px;
+}
+
+span {
+  font-size: 25px;
+}
+
+.bird {
+  margin: 0px auto;
+  width: 40%;
+  /* border: 2px solid black; */
+}

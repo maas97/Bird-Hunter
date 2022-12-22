@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro Game</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="username">
+        <form id="player" action="game.html" method="get">
+          <label for="user">Enter your name</label>
+          <br /><br />
+          <input
+            id="user"
+            type="text"
+            name="user"
+            placeholder="Enter your name"
+            required
+            autofocus
+            autocomplete="off"
+          />
+          <br /><br />
+          <input class="submit"
+          type="submit"
+          name="submit" value="Go">
+          </input>
+        </form>
+      </div>
+      <div class="instructions">
+        <p>Game bird shooting points</p>
+        <br />
+        <div class="bird">
+          <img src="images/brown.gif" alt="brown Bird" />
+          <span>+5 Points</span>
+        </div>
+        <br />
+        <div class="bird">
+          <img src="images/black.gif" alt="Black Bird" />
+          <span>+10 Points</span>
+        </div>
+        <br />
+        <div class="bird">
+          <img src="images/cyan.gif" alt="Cyan Bird" />
+          <span>-10 Points</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

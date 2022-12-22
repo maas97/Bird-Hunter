@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duck Hunter</title>
+    <link rel="stylesheet" href="css/game.css" />
+  </head>
+  <body>
+    <audio></audio>
+    <audio id="shooteffect"></audio>
+    <audio id="bombeffect"></audio>
+    <div id="topbar">
+      <div id="welcomediv">
+        <span>Welcome:</span>
+        <span class="name"></span>
+      </div>
+      <div id="scorediv">
+        <span>Score:</span>
+        <span class="score">0</span>
+      </div>
+      <div id="timelimitdiv">
+        <span>Time Limit:</span>
+        <span class="time">01:00</span>
+      </div>
+      <div id="birdskilleddiv">
+        <span>Birds Killed:</span>
+        <span class="birds">0</span>
+      </div>
+    </div>
+    <div class="welcome">
+      <img class="duckhunter" src="images/welcome.jpg" alt="Welcome" />
+      <p class="intro">
+        Hi, You only have 1 min to hunt as much birds as you can... good luck
+      </p>
+      <button class="start" type="button">Start Game</button>
+    </div>
+    <div class="win">
+      <img class="winner" src="images/win.gif" alt="You Won" />
+      <p class="congrats">Congratulations, You Won</p>
+      <button class="playAgain redirect" type="button">Play Again</button>
+    </div>
+    <div class="lose">
+      <img class="loser" src="images/lose.gif" alt="You Lost" />
+      <p class="sad">Unfortunately, You LOST !!!</p>
+      <button class="tryAgain redirect" type="button">Try Again</button>
+    </div>
+    <script src="js/game.js"></script>
+  </body>
+</html>
