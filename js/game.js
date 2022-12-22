@@ -107,9 +107,9 @@ window.onload = function () {
   redirectButton[1].onclick = function () {
     location.href = "index.html";
   };
-  let srcBrown = "../images/brown.gif";
-  let srcBlack = "../images/black.gif";
-  let srcCyan = "../images/cyan.gif";
+  let srcBrown = "images/brown.gif";
+  let srcBlack = "images/black.gif";
+  let srcCyan = "images/cyan.gif";
   console.log(userElement);
   userElement.textContent = userName;
   console.log(buttonElement);
